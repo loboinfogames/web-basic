@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+
+<hmtl lang="pt-br">
+
+<head>
+
+    <!--básico-->
+
+<meta http-equiv="Content Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=ecge">
+
+<!---Mobile Meas-->
+
+<meta name="viewport" content="width=device-width, minimun-scale=1.0, maximun-scale1.0, user-sca">
+<meta name="theme-color" content="1C1C1C">
+
+<!--Site Metas-->
+
+<title>Rafael O. Guimarães</title>
+<link href="css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+    
+    <!--Menu Inicio-->
+<div class="header">
+    <div id="menu">
+     <a href="Index.html"><img class="logo" src="imagens/guatemala.jpe"  width="500" heigth="2000"/></a>
+      <ul class="navbar">
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+</div>
+
+<!--Menu fim-->
+
+<div class="content">
+    <h1>Contato</h1>
+  
+    <h2>Na página de contato com alerta de email.</h2>
+
+    <script type="text/javascript" src="js/personalizado.js"></script>
+    <!--Formulário de envio de email-->
+
+  <div class="contato">
+    <form class="form" method="POST" action="php/enviar.php" name="formcontato">
+        <input class="field" name="email" placeholder="E-Mail">
+        <input class="field" name="name" placeholder="Nome">
+        <textarea class="field" name="message" placeholder="Digite seu comentário."></textarea>
+        <input class="field" type="submit" name="ENVIAR" onclick="return validar_formcontato()">
+    </form>
+  </div>
+
+
+ <!--Fim do Conteudo-->
+
+ <div class="footer">
+    <p>Todos os direitos reservado á Rafael O Guimarães <a href="http://www.proflobo.com.br">www.proflobo.com.br</a></p>
+    <!--Fim Footer-->
+ </div>
+ <!--Fim container-->
+</div>
+</body>
+</hmtl>
